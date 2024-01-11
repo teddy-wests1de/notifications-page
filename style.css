@@ -66,6 +66,7 @@ body {
     background-color: transparent;
     color: var(--color-dark-gray-blue);
 }
+
 .notification-header .mark-read:hover {
     cursor: pointer;
     color: var(--color-blue);
@@ -77,6 +78,7 @@ body {
     gap: 1rem;
 }
 .user-notification {
+    cursor: pointer;
     display: flex;
     gap: 1rem;
     border-radius: 5px;
@@ -128,6 +130,9 @@ a:hover {
     padding: .4rem;
     border-radius: 4px;
     color: var(--color-grayish-blue);
+}
+.post-message.hidden {
+    display: none;
 }
 .post-message:hover {
     cursor: pointer;
