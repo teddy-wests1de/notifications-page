@@ -23,8 +23,8 @@ userNotification.forEach(nb => {
                 unreadCount.textContent = count
             }
         }
-        if(targetBlock.classList.contains('post-message'))
-        postMessage.classList.toggle('hidden');
+        if(!targetBlock.querySelector('.post-message')) return;
+        targetBlock.querySelector('.post-message').classList.toggle('hidden');
     })
 })
 btnReadAll.addEventListener('click', function() {
