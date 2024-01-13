@@ -86,10 +86,10 @@ body {
 }
 a:link {
     text-decoration: none;
-    color: var(--color-dark-gray-blue);
+    color: var(--color-dark-blue);
 }
 a:visited {
-    color: var(--color-grayish-blue);
+    color: var(--color-dark-blue);
 }
 a:hover {
     color: var(--color-blue);
